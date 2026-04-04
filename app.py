@@ -17,8 +17,12 @@ from scipy.spatial import distance
 import warnings
 warnings.filterwarnings('ignore')
 
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
+
 # 🔑 API key - Gemini API configuration
-MY_API_KEY = "AIzaSyA1dcuPWg3WhjK0SBbfgseSAcBCbtRKb9w"
+MY_API_KEY = os.getenv("GEMINI_API_KEY")
 
 def run_gemini(prompt_text):
     try:
