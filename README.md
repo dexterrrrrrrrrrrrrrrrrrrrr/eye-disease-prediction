@@ -64,5 +64,5 @@ streamlit run app.py
 ## ⚠️ Disclaimer
 Educational tool only. Consult ophthalmologist.
 
-**Made with ❤️ by BLACKBOXAI**
+
 
