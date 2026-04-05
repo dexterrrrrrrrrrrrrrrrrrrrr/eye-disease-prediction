@@ -1,7 +1,7 @@
 # 🤖 AI Retinal Analyzer - Skin & Eye Disease Prediction
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-LIVE-brightgreen)](http://localhost:8501)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/dexterrrrrrrrrrrrrrrrrrrrr/skin-eye-disease-prediction)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/dexterrrrrrrrrrrrrrrrrrrrr/eye-disease-prediction)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## ✨ Features
