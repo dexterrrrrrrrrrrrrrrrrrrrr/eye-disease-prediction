@@ -2113,8 +2113,9 @@ def main():
         st.markdown("---")
         
         # Disclaimer
+
         st.markdown("""
-        <div class='alert-box alert-warning'>
+        <div class='alert-box' style='background: linear-gradient(135deg, #2D3748, #4A5568); color: white;'>
             <strong>⚠️ Medical & AI Disclaimer</strong><br><br>
             This tool provides <strong>accurate measurements</strong> based on retinal image analysis.
             AI insights are powered by Google Gemini.
@@ -2123,6 +2124,7 @@ def main():
             Always consult with an ophthalmologist.
         </div>
         """, unsafe_allow_html=True)
+
     
     # Initialize session state
     if 'demo_type' not in st.session_state:
@@ -2507,7 +2509,26 @@ def main():
         st.markdown("---")
         st.markdown("## 🔬 Detailed Analysis")
         
+
+
+        st.markdown("""
+        <style>
+        section[data-testid="stHorizontalBlockContainer"] > div {{
+            background: linear-gradient(135deg, #1e293b, #334155) !important;
+            color: white !important;
+        }}
+        section[data-testid="stHorizontalBlockContainer"] * {{
+            color: white !important;
+        }}
+        section[data-testid="stHorizontalBlockContainer"] .dataframe {{
+            background: #1e293b !important;
+            color: white !important;
+        }}
+        </style>
+        """, unsafe_allow_html=True)
         tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["📋 Measurements", "📈 Charts", "🩸 Vessel Details", "👁️ Eye Info", "🎯 Findings", "🤖 AI Tools"])
+
+
         
         with tab1:
             # Display all measurements
