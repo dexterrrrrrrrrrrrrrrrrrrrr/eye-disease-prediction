@@ -1,6 +1,6 @@
 # 🤖 AI Retinal Analyzer - Eye Disease Prediction
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-LIVE-brightgreen)](http://localhost:8501)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-LIVE-brightgreen)](https://eye-disease-prediction-ffdexterrrrrrrrrrrrr.streamlit.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/dexterrrrrrrrrrrrrrrrrrrrr/eye-disease-prediction)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
