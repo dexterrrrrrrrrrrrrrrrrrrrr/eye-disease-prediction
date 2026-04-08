@@ -1850,7 +1850,7 @@ def main():
     
     # Header
     st.markdown("""
-    <div class='main-header'>🤖 AI-Powered Medical Retinal Analyzer</div>
+    <div class='main-header'>🤖 JeevanAI AI-Powered Medical Retinal Analyzer</div>
     """, unsafe_allow_html=True)
     
     # Sidebar
@@ -3454,7 +3454,7 @@ Always consult an ophthalmologist for diagnosis.
         <div style='text-align: center; padding: 50px 20px; background: linear-gradient(135deg, #667eea20, #764ba220); 
                     border-radius: 25px; margin: 20px 0;'>
             <div style='font-size: 5rem; margin-bottom: 20px;'>🤖👁️</div>
-            <h2 style='color: #2D3748; margin-bottom: 20px;'>AI-Powered Medical Retinal Analyzer</h2>
+            <h2 style='color: #2D3748; margin-bottom: 20px;'>JeevanAI AI-Powered Medical Retinal Analyzer</h2>
             <p style='color: #4A5568; font-size: 1.2rem; max-width: 800px; margin: 0 auto 40px;'>
                 <strong>Advanced retinal analysis with CORRECTED automatic eye detection and Gemini AI.</strong><br>
                 This medical-grade tool uses the simple rule: <strong>Disc on LEFT = LEFT Eye, Disc on RIGHT = RIGHT Eye</strong>
